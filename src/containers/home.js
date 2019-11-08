@@ -1,5 +1,4 @@
 import React from "react";
-import image from "../logo192.png";
 import viber from "../Martz90-Circle-Viber.ico";
 import twitter from "../Twitter_Android.png";
 import image2 from "../logo.svg";
@@ -133,7 +132,7 @@ function Home() {
               <Card>
                 <Card.Header>Frontend Tools</Card.Header>
                 <ListGroup>
-                  {frontend.map(frontenditem => (
+                  {frontend.map((frontenditem) => (
                     <ListGroupItem>{frontenditem}</ListGroupItem>
                   ))}
                 </ListGroup>
@@ -145,7 +144,7 @@ function Home() {
               <Card>
                 <Card.Header>Backend Tools</Card.Header>
                 <ListGroup>
-                  {backend.map(backendi => (
+                  {backend.map((backendi) => (
                     <ListGroupItem>{backendi}</ListGroupItem>
                   ))}
                 </ListGroup>
@@ -156,7 +155,7 @@ function Home() {
               <Card>
                 <Card.Header>Deployment</Card.Header>
                 <ListGroup>
-                  {deployment.map(deploymenti => (
+                  {deployment.map((deploymenti) => (
                     <ListGroupItem>{deploymenti}</ListGroupItem>
                   ))}
                 </ListGroup>

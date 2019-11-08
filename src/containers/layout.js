@@ -7,16 +7,11 @@ import {
   Form,
   FormControl,
   Button,
-  NavDropdown,
-  Jumbotron,
-  Row,
-  Carousel
+  NavDropdown
 } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
-import { all } from "q";
 import image from "../logo192.png";
-import image2 from "../logo.svg";
 import Home from "./home";
 
 export default class Layout extends Component {
